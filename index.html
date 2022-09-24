@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!--
+	Final Project - Gather Beer Garden Website
+	ITSE 1311-001
+	
+	Author: Morinne Kearns
+	Date: 5/8/22
+	
+	Filename: index.html
+-->
+	
+	<meta charset="utf-8">
+	<title>Gather Beer Garden Homepage</title>
+	
+	<link href="css/gather_base.css" rel="stylesheet" />
+	<link href="css/gather_styles.css" rel="stylesheet" />
+	<script src="scripts/gathering_banner.js" async></script>
+
+</head>
+
+<body>
+	<header>
+
+		<img src="images/gather_header.png" alt="Gather" />
+		<nav class="horizontal">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="menu.html">Menu</a></li>
+				<li><a href="specials.html" onclick="window.open(this.href, 'targetWindow', 'toolbar=no,  screenX=1000, screenY=200, width=1000, height=600'); return false;">Specials</a></li>
+				<li><a href="specials_today.html" >Today's Specials</a></li>
+			</ul>
+		</nav>	
+	</header>
+	
+	<!--Banner container-->
+	<div class="slideshow-container">
+		<div id="slides">
+			<div class="imgbanbtn imgbanbtn-prev" id="imgbanbtn-prev"></div>
+    		<div class="slide showing">
+				<img src="images/banner1.png" />
+			</div>
+			<div class="slide">
+				<img src="images/banner2.png" />
+			</div>
+			<div class="slide">
+				<img src="images/banner3.png" />
+			</div>
+			<div class="slide">
+				<img src="images/banner4.png" />
+			</div>
+			<div class="imgbanbtn imgbanbtn-next" id="imgbanbtn-next"></div>
+			
+			<button class="controls" id="previous">Previous</button>
+			<button class="controls" id="next">Next</button>
+		</div>
+			
+	</div>
+	<div id="info">
+		<ul>
+			<li>Hours: Su-Th 10am-9pm, F-Sa 10am-11pm</li>
+			<li><img src="images/beer.png" \></li>
+			<li>Located at 1200 Gathering Ln, Austin, TX 78724</li>	
+		</ul>
+	</div>
+
+	
+	<section id="main">
+		<h1>Welcome to Gather</h1>
+		<img src="images/Gather_entrance.png" />
+		<h2>A beer garden for ALL</h2>
+		<p>Gather is a place for all ages and all types of people to gather, get to know each other, and have fun.</p>
+		<p>We have a large, centralized pavilion for mixing and mingling, as well as a variety of gazebos for groups of any size.</p>
+		<p>If you're looking for new friends, join one of our many group meetups, like the weekly board game group or musician jam. Or if you already have a group, reserve one of our gazebos for your next meetup.</p>
+		<p>We have a variety of craft beers, ciders, and mead, along with a tasty selection finger-foods to satisfy the munchies.</p>
+		
+	</section>
+	<footer>
+    	<a href="#"><img src="images/email.svg" alt="Email Us"></a>
+    	<a href="#"><img src="images/Facebook_icon.svg" alt="Gather on Facebook"></a>
+    	<a href="#"><img src="images/instagram.svg" alt="Gather on Instagram"></a>
+    </footer>
+</body>
+</html>

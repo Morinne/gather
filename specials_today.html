@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!--
+	Final Project - Gather Beer Garden Website
+	ITSE 1311-001
+	
+	Author: Morinne Kearns
+	Date: 5/8/22
+	
+	Filename: menu.html
+	
+	This file contains the menu for a fictional beer garden called Gather.
+-->
+	
+	<meta charset="utf-8">
+	<title>Gather Beer Garden Homepage</title>
+	
+	<link href="css/gather_base.css" rel="stylesheet" />
+	<link href="css/gather_styles.css" rel="stylesheet" />
+	<script src="scripts/specials_data.js" async></script>
+	<script src="scripts/menu_data.js" async></script>
+	<script src="scripts/specials_today.js" async></script>
+	<script src="scripts/calculate.js" async></script>
+
+</head>
+
+<body>
+	<header>
+		<img src="images/specials_today.png" alt="Gather Menu" />
+		<nav class="horizontal">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="menu.html">Menu</a></li>
+				<li><a href="specials.html" onclick="window.open(this.href, 'targetWindow', 'toolbar=no,  screenX=1000, screenY=200, width=1000, height=600'); return false;">Specials</a></li>
+				<li><a href="specials_today.html">Today's Specials</a></li>
+			</ul>
+		</nav>	
+	</header>
+	<div id="todaysTable">
+    </div>
+
+</body>
+</html>

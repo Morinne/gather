@@ -1,0 +1,35 @@
+"use strict";
+
+/*
+	Final Project - Gather Beer Garden Website
+	ITSE 1311-001
+	
+	Author: Morinne Kearns
+	Date: 5/8/22
+   
+   	Filename: menu_data.js
+   
+   	The drinks_name array contains the names of drinks available at Gather
+   	The drinks_price array contains the prices of drinks at Gather
+   	The drinks_description array contains descriptions for each of the drinks
+   	The drinks_images array contains the url for pictures of the drinks
+   
+   	The food_name array contains the names of food available at Gather
+   	The food_price array contains the prices of food at Gather
+   	The food_description array contains descriptions for each of the food
+   	The food_images array contains the url for pictures of the food
+      
+*/
+var drinks_title = 'images/menu/Drinks.png';
+var food_title='images/menu/Food.png';
+var drinks_name = ['Juicy IPA - 512 Brewing', 'McConauHaze - Twisted X', 'Cosmic Cowboy - FBB', 'Austin Eastciders - Blood Orange', 'Honey Mead - Meridian Hive', 'Blackberry Mead - Meridian Hive'];
+var drinks_price = [6.25, 7.00, 7.50, 6.50, 7.00, 7.00];
+var drinks_description = ['Smooth and pleasant hop bitterness that cuts the malt and hop sweetness just enough.', 'Hop-forward flavors and aromas with less bitterness than American IPAs.', 'Ripe pineapple and grapefruit notes floating on a layer of pine.', 'A crisp, bittersweet citrus flavor with undertones of raspberry and grapefruit. Sure to brighten your day!', 'This classic delivers a perfect balance of subtle orange blossom paired with a hint of citrus and a crisp finish.', 'Juicy blackberries, orange blossom honey, and just the right amount of carbonation combine to create this forever fan-favorite.'];
+var drinks_images = ['images/menu/juicyipa.jpg', 'images/menu/mcconauhaze.png', 'images/menu/cosmicCowboy.png', 'images/menu/eastciders_orange.jpg', 'images/menu/meridianHoney.jpg', 'images/menu/meridianBlackberry.jpg'];
+
+var food_name = ['Chips and Salsa', 'Chips and Queso', 'BBQ Sliders', 'Cheeseburger Sliders', 'Green Chile Pork Tacos', 'Potato, Egg, and Cheese Tacos'];
+var food_price = [5.50, 6.25, 8.50, 8.50, 6.75, 5.75];
+var food_description = ['A group-sized serving of crispy, thin tortilla chips with a spicy salsa.', 'Crispy tortilla chips with a blend of melted cheese, Green Chile, and ranchero sauce.', 'Three pulled pork sliders topped with Stubb\'s BBQ sauce and tasty coleslaw served with fries.', 'Three slider burgers topped with cheddar cheese, lettuce, tomato, sliced onions, pickes, mayo, and mustard', 'Two tacos with carnitas, green chiles, and cotija cheese with tomatillo sauce on corn tortillas.', 'Two tacos with scrambled eggs, green chile, hashbrowns, and cheddar cheese in flour tortillas.'];
+var food_images = ['images/menu/chipsSalsa.png', 'images/menu/queso.png', 'images/menu/bbqsliders.jpg', 'images/menu/sliders.jpg', 'images/menu/porkTacos.png', 'images/menu/brekkieTaco.png'];
+
+  
